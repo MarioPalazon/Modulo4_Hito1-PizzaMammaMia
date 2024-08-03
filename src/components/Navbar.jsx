@@ -21,7 +21,7 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2" aria-current="page" href="#">
-                <img src={HEADER_HOME_ICON} />
+                <img src={HEADER_HOME_ICON} alt='Icono del home del menu' />
                 Home
               </a>
             </li>
@@ -29,13 +29,13 @@ const Navbar = () => {
               <>
                 <li className="nav-item">
                   <a className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2" >
-                    <img src={HEADER_LOGIN_REGISTER_ICON} />
+                    <img src={HEADER_LOGIN_REGISTER_ICON} alt='Icono del Login'/>
                     Login
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2" href="#">
-                  <img src={HEADER_LOGIN_REGISTER_ICON} />
+                  <img src={HEADER_LOGIN_REGISTER_ICON} alt='Icono del Register' />
                     Register</a>
                 </li> 
               </>
@@ -43,10 +43,16 @@ const Navbar = () => {
             (
               <>
                 <li className="nav-item">
-                  <a className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2" href="#">Profile</a>
+                  <a className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2" href="#">
+                  <img src={HEADER_LOGIN_REGISTER_ICON} alt='Icono del Profñe' />
+                    Profile
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <button className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2">Logout</button>
+                  <button className="btn btn-dark text-white border border-1 border-white rounded-2 p-2 m-2">
+                  <img src={HEADER_LOGIN_REGISTER_ICON} alt='Icono del Logout' />
+                    Logout
+                  </button>
                 </li>
               </>
             )

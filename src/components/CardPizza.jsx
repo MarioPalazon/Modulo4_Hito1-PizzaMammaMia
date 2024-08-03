@@ -9,7 +9,7 @@ const CardPizza = ({name,price,ingredients,img}) => {
       
           <article className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4 rounded-3">
             <div className="card mx-2">
-              <img src={img}className="card-img-top" alt="..." />
+              <img src={img}className="card-img-top" alt={name} />
               <div className='border-2 border-bottom p-2'>
                 <h4>Pizza {name}</h4>
               </div>
